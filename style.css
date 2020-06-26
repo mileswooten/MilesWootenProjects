@@ -1,0 +1,52 @@
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+  }
+  
+  .idCard {
+    border: 5px solid black;
+    width: 25em;
+    height: 16em;
+    margin: auto;
+    background-color: #FF5F5F;
+    font-family: monospace;
+  }
+  
+  #postFullName {
+    font-size: 1.70em;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-left: 80px;
+    padding-top: 10px;
+  }
+  
+  #postAge {
+    padding-left: 15px;
+  }
+  
+  #postPhoneNumber {
+    padding-left: 15px;
+  }
+  
+  #postAddress {
+    padding-left: 15px;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #monospaceParagraph {
+    font-family: monospace;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  #button {
+    margin-top: 10px;
+  }
+  
+  html {
+    background-color: #85929E;
+  }

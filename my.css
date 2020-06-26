@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:1200px) {
+    .list {
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+.header {
+    margin-top: 0px;
+}
+
+body {
+    height: 1500px;
+    background: #17202A;
+}
+
+.bodyFull {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    font-size: 1.3em;
+    padding-left: 50px;
+}
+
+#getHubResult {
+    font-size: .25em;
+    max-width: 200px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+}
+
+.listHeader {
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.img {
+    height: 500px;
+    width: auto;
+    margin-bottom: 30px;
+    border: solid whitesmoke 2.5px
+}
+
+.image-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-grid {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#twitter {
+    height: 125px;
+    width: 125px;
+    padding: 15px;
+    transition: transform .2s;
+}
+    #twitter:hover {
+        transform: scale(1.5);
+    }
+
+#instagram {
+    height: 125px;
+    width: 125px;
+    padding: 15px;
+    transition: transform .2s;
+}
+    #instagram:hover {
+        transform: scale(1.5);
+    }
+
+#facebook {
+    height: 125px;
+    width: 125px;
+    padding: 15px;
+    transition: transform .2s;
+}
+    #facebook:hover {
+        transform: scale(1.5);
+    }
+
+#github {
+    height: 125px;
+    width: 125px;
+    padding: 15px;
+    transition: transform .2s;
+}
+    #github:hover {
+        transform: scale(1.5);
+    }
+
+#linkedin {
+    height: 125px;
+    width: 125px;
+    padding: 15px;
+    transition: transform .2s;
+}
+    #linkedin:hover {
+        transform: scale(1.5);
+    }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+
+ .gmail {
+     height: 40px;
+     width: 40px;
+     padding: 5px;
+ }
